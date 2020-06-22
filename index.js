@@ -10,6 +10,7 @@ function main(params) {
   let wa_version = "{watson-assistant-version}";
   let assistantId = "{assistant-id-to-translate}";
 
+  // Language Translator (LT) credentials
   let lt_apikey = "{your-language-translator-api-key}";
   let lt_url = "{language-translator-url}";
   let lt_version = "{language-translator-version}";
