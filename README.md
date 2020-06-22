@@ -70,6 +70,6 @@ This is a [Cloud Function](https://cloud.ibm.com/docs/openwhisk) designed to be 
 
 1. 
 
-### Debugging
+## Debugging
 
 To debug and run locally... un-comment the last line in `index.js` which invokes the main() method. Then run as you would any Node app: `node index.js`
