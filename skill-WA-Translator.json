@@ -1,0 +1,1480 @@
+{
+  "intents": [
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "End trial"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Good day"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "Everyone hates you"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Another joke"
+        }
+      ],
+      "description": "Request a joke."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "language",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "es",
+          "synonyms": [
+            "spanish_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "en",
+          "synonyms": [
+            "english_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vi",
+          "synonyms": [
+            "vietnamese_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ur",
+          "synonyms": [
+            "urdu_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tr",
+          "synonyms": [
+            "turkish_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "th",
+          "synonyms": [
+            "thai_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "te",
+          "synonyms": [
+            "telugu_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ta",
+          "synonyms": [
+            "tamil_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sv",
+          "synonyms": [
+            "swedish_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sl",
+          "synonyms": [
+            "slovenian_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sk",
+          "synonyms": [
+            "slovak_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "si",
+          "synonyms": [
+            "sinhala_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ru",
+          "synonyms": [
+            "russian_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ro",
+          "synonyms": [
+            "romanian_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pt",
+          "synonyms": [
+            "portuguese_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pl",
+          "synonyms": [
+            "polish_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nb",
+          "synonyms": [
+            "norwegian_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ne",
+          "synonyms": [
+            "nepali_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mt",
+          "synonyms": [
+            "maltese_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ml",
+          "synonyms": [
+            "malayalam_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ms",
+          "synonyms": [
+            "malay_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "li",
+          "synonyms": [
+            "lithuanian_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lv",
+          "synonyms": [
+            "latvian_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ko",
+          "synonyms": [
+            "korean_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ja",
+          "synonyms": [
+            "japanese_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "it",
+          "synonyms": [
+            "italian_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "id",
+          "synonyms": [
+            "indonesian_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ga",
+          "synonyms": [
+            "irish_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hu",
+          "synonyms": [
+            "hungarian_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hi",
+          "synonyms": [
+            "hindi_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "he",
+          "synonyms": [
+            "hebrew_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "gu",
+          "synonyms": [
+            "gujarati_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "el",
+          "synonyms": [
+            "greek_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "de",
+          "synonyms": [
+            "german_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fr",
+          "synonyms": [
+            "french_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fi",
+          "synonyms": [
+            "finnish_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "et",
+          "synonyms": [
+            "estonian_languge"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nl",
+          "synonyms": [
+            "dutch_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "da",
+          "synonyms": [
+            "danish_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cs",
+          "synonyms": [
+            "czech_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hr",
+          "synonyms": [
+            "croation_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "zh-TW",
+          "synonyms": [
+            "chinese_tradit_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "zh",
+          "synonyms": [
+            "chinese_simpl_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bg",
+          "synonyms": [
+            "bulgarian_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bn",
+          "synonyms": [
+            "bengali_language"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ar",
+          "synonyms": [
+            "arabic_language"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://us-south.functions.cloud.ibm.com/api/v1/web/morganlanglais%40ibm.com_my-test-space/default/main-zip.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result.error"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1592439203807",
+      "conditions": "$webhook_result.error",
+      "dialog_node": "response_10_1592851531192",
+      "previous_sibling": "response_1_1592586839552"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$webhook_result.message"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1592439203807",
+      "conditions": "$webhook_result.message",
+      "dialog_node": "response_1_1592586839552"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Hola! Soy tu chatbot ¿Como puedo ayudarte?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1592438706704",
+      "context": {
+        "language": "es",
+        "session_id": "<?context.conversation_id?>"
+      },
+      "conditions": "@language:es",
+      "dialog_node": "node_1_1592587056447",
+      "previous_sibling": "node_1_1592441670856"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "היי! אני הצ'אט שלך. איך אני יכול לעזור לך?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1592438706704",
+      "context": {
+        "language": "he",
+        "session_id": "<?context.conversation_id?>"
+      },
+      "conditions": "@language:he",
+      "dialog_node": "node_3_1592852607538",
+      "previous_sibling": "node_2_1592852603227"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hej! Jag är din chatbot. Hur kan jag hjälpa dig?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1592438706704",
+      "context": {
+        "language": "sv",
+        "session_id": "<?context.conversation_id?>"
+      },
+      "conditions": "@language:sv",
+      "dialog_node": "node_2_1592852603227",
+      "previous_sibling": "node_1_1592852601174"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Salut! Je suis ton chatbot. Comment puis-je vous aider?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1592438706704",
+      "context": {
+        "language": "fr",
+        "session_id": "<?context.conversation_id?>"
+      },
+      "conditions": "@language:fr",
+      "dialog_node": "node_1_1592852601174",
+      "previous_sibling": "node_1_1592587056447"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi! I am your chatbot. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1592438706704",
+      "context": {
+        "language": "en"
+      },
+      "conditions": "@language:en",
+      "dialog_node": "node_1_1592441670856"
+    },
+    {
+      "type": "standard",
+      "title": "General Capabilities",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am a test bot meant for showing how to make translations."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Agent_Capabilities",
+      "dialog_node": "node_1_1592851657145",
+      "previous_sibling": "node_2_1592439203807"
+    },
+    {
+      "type": "standard",
+      "title": "Translate Webhook",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "language": "$language",
+            "session_id": "$session_id",
+            "user_utterance": "<?input.text?>"
+          },
+          "result_variable": "webhook_result"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "$language==\"es\" ||   $language==\"fr\" ||  $language==\"he\" || $language==\"sv\"",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1592439203807",
+      "previous_sibling": "node_1_1592438706704"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I did not understand. You can try a different phrase."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I do not understand what you want to say."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_7_1592851808897",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Goodbye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Have a wonderful day!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1592851808897",
+      "previous_sibling": "node_1_1592851657145"
+    },
+    {
+      "type": "standard",
+      "title": "Language Choice",
+      "output": {
+        "generic": [
+          {
+            "title": "Language/Idioma/Langue/Språk/שפה:",
+            "options": [
+              {
+                "label": "English",
+                "value": {
+                  "input": {
+                    "text": "english_language"
+                  }
+                }
+              },
+              {
+                "label": "Espanol",
+                "value": {
+                  "input": {
+                    "text": "spanish_language"
+                  }
+                }
+              },
+              {
+                "label": "French",
+                "value": {
+                  "input": {
+                    "text": "french_language"
+                  }
+                }
+              },
+              {
+                "label": "Swedish",
+                "value": {
+                  "input": {
+                    "text": "swedish_language"
+                  }
+                }
+              },
+              {
+                "label": "Hebrew",
+                "value": {
+                  "input": {
+                    "text": "hebrew_language"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1592438706704"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": false
+  },
+  "learning_opt_out": false,
+  "name": "WA Translator",
+  "language": "en",
+  "description": ""
+}

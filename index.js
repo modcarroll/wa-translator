@@ -10,7 +10,6 @@ function main(params) {
   let wa_version = "{watson-assistant-version}";
   let assistantId = "{assistant-id-to-translate}";
 
-  // Language Translator (LT) credentials
   let lt_apikey = "{your-language-translator-api-key}";
   let lt_url = "{language-translator-url}";
   let lt_version = "{language-translator-version}";
@@ -37,10 +36,10 @@ function main(params) {
     url: lt_url,
   });
 
-  let sessionId = "";
+  let session_id = "";
 
   // assign variables from input parameters, passed from Watson Assistant
-  sessionId = params.session_id ? params.session_id : '';
+  session_id = params.session_id; // ? params.session_id : '';
   userUtter = params.user_utterance;
   originalInput = userUtter;
   language = params.language;
@@ -48,71 +47,72 @@ function main(params) {
   // LT parameters
   const translateParams = {
     text: userUtter,
-    modelId: language + "-en",
+    source: language,
+    target: "en",
   };
 
   return new Promise((resolve, reject) => {
 
-    // THIS SECTION for debugging locally when session ID is not known
-    // assistant.createSession({
-    //   assistantId: assistantId
-    // }).then(res => {
-    //     sessionId = res.result.session_id;
+    assistant.createSession({
+      assistantId: assistantId
+    }).then(res => {
+        session_id = res.result.session_id;
 
-    //     language = params.language;
+       return languageTranslator.translate(translateParams);
+    }).then(function (translationResult) {
 
-    //     console.log("Input: ", userUtter);
+    // if no session ID needs to be created
+    // languageTranslator.translate(translateParams).then(function (translationResult) {
 
-    return languageTranslator.translate(translateParams);
+      // receive english translation from LT service
+      let englishTransl = translationResult.result.translations[0].translation;
+      console.log("English input: ", englishTransl);
+      translatedInput = englishTransl;
 
-  }).then(function (translationResult) {
-    // receive english translation from LT service
-    let englishTransl = translationResult.result.translations[0].translation;
-    console.log("English input: ", englishTransl);
-    translatedInput = englishTransl;
+      // send english translated input to WA
+      return assistant.message({
+        assistantId: assistantId,
+        sessionId: session_id,
+        input: {
+          'message_type': 'text',
+          'text': englishTransl
+        }
+      });
+    }).then(function (res) {;
+      // receive english translated response from WA
+      let englishResp = res.result.output.generic[0].text;
+      console.log("English output: ", englishResp);
+      originalOutput = englishResp;
 
-    // send english translated input to WA
-    return assistant.message({
-      assistantId: assistantId,
-      sessionId: sessionId,
-      input: {
-        'message_type': 'text',
-        'text': englishTransl
-      }
+      // parameters for converting response to user language
+      const translateParams = {
+        text: res.result.output.generic[0].text,
+        source: "en",
+        target: language,
+      };
+
+      return languageTranslator.translate(translateParams);
+
+    }).then(function (translationResult) {
+      // receive bot response in user language
+      console.log("Output translation: ", translationResult.result.translations[0].translation);
+      translatedOutput = translationResult;
+
+      // return only the translated message
+      // return{"message":translationResult.result.translations[0].translation};
+
+      // returns translations at each step to the chatbot
+      resolve({ "message": translationResult.result.translations[0].translation, "originalInput": originalInput, "translatedInput": translatedInput, "originalOutput": originalOutput, "translatedOutput": translatedOutput });
+    }).catch(function (err) {
+
+      // if an error occurs, return the error
+      reject({ "error": err });
+      console.log("****error: ", err);
     });
-  }).then(function (res) {
-    // receive english translated response from WA
-    console.log("English output: ", res.result.output.generic[0].text);
-    originalOutput = res.result.output.generic[0].text;
-
-    // parameters for converting response to user language
-    const translateParams = {
-      text: res.result.output.generic[0].text,
-      modelId: 'en-' + language,
-    };
-
-    return languageTranslator.translate(translateParams);
-
-  }).then(function (translationResult) {
-    // receive bot response in user language
-    console.log("Output translation: ", translationResult.result.translations[0].translation);
-    translatedOutput = translationResult;
-
-
-    // return only the translated message
-    // return{"message":translationResult.result.translations[0].translation};
-
-    // returns translations at each step to the chatbot
-    resolve({ "message": translationResult.result.translations[0].translation, "originalInput": originalInput, "translatedInput": translatedInput, "originalOutput": originalOutput, "translatedOutput": translatedOutput });
-  }).catch(function (err) {
-
-    // if an error occurs, return the error
-    reject({ "error": err });
-    console.log("****error: ", err);
-  });
+  })
 }
 
 exports.main = main;
 
 // This is for local testing
-// main({sessionId: "", user_utterance: "¿Que puedes hacer?", language: "es"});
+// main({session_id: "", user_utterance: "¿Que puedes hacer?", language: "es"});
